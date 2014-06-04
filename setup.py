@@ -23,7 +23,7 @@ long_description = (
     open('CHANGES.txt').read()
     + '\n')
 
-setup(name='altair.auth',
+setup(name='pyramid_dogpile_cache',
       version=version,
       description="dogpile.cache factory for Pyramid",
       long_description=long_description,
@@ -42,7 +42,7 @@ setup(name='altair.auth',
       keywords='web wsgi pylons pyramid dogpile cache',
       author='Moriyoshi Koizumi',
       author_email='mozo@mozo.jp',
-      url='http://svn.plone.org/svn/collective/',
+      url='https://github.com/moriyoshi/pyramid_dogpile_cache',
       license='bsd',
       packages=find_packages(),
       include_package_data=True,
